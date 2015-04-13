@@ -1,0 +1,105 @@
+themes {
+	content {
+		# Responsive content element settings
+		responsive {
+			default {
+				medium {
+					label = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.devices.desktop
+					visibility {
+						default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
+						inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
+						inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
+						block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
+						hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
+					}
+				}
+				small {
+					label = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.devices.tablet
+					visibility {
+						default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
+						inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
+						inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
+						block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
+						hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
+					}
+				}
+				extrasmall {
+					label = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.devices.mobile
+					visibility {
+						default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
+						inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
+						inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
+						block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
+						hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
+					}
+				}
+				large {
+					label = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.devices.large
+					visibility {
+						default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
+						inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
+						inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
+						block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
+						hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
+					}
+				}
+			}
+
+			# Special settings for GridElements
+			# Used by ctype gridelements_pi1
+			# Will be merged with default
+			gridelements_pi1 {
+				medium {
+					rowSettings {
+						realHeight = real height
+						equalHeight = equal height
+					}
+					columnSettings {
+						offset = Offset
+						pull = Pull
+						push = Push
+						width = Width
+					}
+				}
+				small {
+					rowSettings {
+						realHeight = real height
+						equalHeight = equal height
+					}
+					columnSettings {
+						offset = Offset
+						pull = Pull
+						push = Push
+						width = Width
+					}
+				}
+				extrasmall {
+					rowSettings {
+						realHeight = real height
+						equalHeight = equal height
+					}
+					columnSettings {
+						offset = Offset
+						pull = Pull
+						push = Push
+						width = Width
+					}
+				}
+				large {
+					label = Large devices GRID
+					rowSettings {
+						realHeight = real height
+						equalHeight = equal height
+					}
+					columnSettings {
+						offset = Offset
+						pull = Pull
+						push = Push
+						width = Width
+					}
+				}
+			}
+			
+		}
+	}
+}

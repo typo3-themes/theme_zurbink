@@ -1,0 +1,6 @@
+lib {
+    inkcssfile = FILE
+    inkcssfile {
+        file = EXT:theme_zurbink/Resources/Public/Contrib/ink-1.0.5/ink.css
+    }
+}

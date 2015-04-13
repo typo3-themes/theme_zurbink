@@ -1,0 +1,7 @@
+page {
+    config {
+        disableAllHeaderCode = 1
+        absRefPrefix = {$plugin.tx_cbink.siteURL}
+    }
+    100.stdWrap.postUserFunc = KayStrobach\ThemeZurbink\Processing\Inliner->process
+}
