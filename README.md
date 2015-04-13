@@ -3,6 +3,8 @@ Quickly create responsive HTML emails that work on any device &amp; client. Even
 
 To achieve that this repository contains a base template for sending email newsletters based on zurb foundations ink templates.
 
+![Preview](Meta/Screenshots/screenshot.png)
+
 Based on
 * http://zurb.com/ink/
 * https://github.com/zurb/ink
