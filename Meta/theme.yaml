@@ -40,12 +40,6 @@ screenshots:
   -
     file           : EXT:theme_zurbink/Meta/Screenshots/screenshot-01.png
     caption        : Super image 2
-  -
-    file           : EXT:theme_zurbink/Meta/Screenshots/screenshot-02.png
-    caption        : Super image 2
-  -
-    file           : EXT:theme_zurbink/Meta/Screenshots/screenshot-03.png
-    caption        : Super image 2
 
 
 # Name of the authors (optional, multiple possible)
