@@ -87,34 +87,9 @@
 						<tr>
 							<td class="panel">
 								<h6 style="margin-bottom:5px;">Connect With Us:</h6>
-								<table class="tiny-button facebook">
-									<tr>
-										<td>
-											<a href="#">Facebook</a>
-										</td>
-									</tr>
-								</table>
-								<hr>
-								<table class="tiny-button twitter">
-									<tr>
-										<td>
-											<a href="#">Twitter</a>
-										</td>
-									</tr>
-								</table>
-								<hr>
-								<table class="tiny-button google-plus">
-									<tr>
-										<td>
-											<a href="#">Google +</a>
-										</td>
-									</tr>
-								</table>
+								<f:render partial="Socialmedia/List" section="Default" />
 								<br>
-								<h6 style="margin-bottom:5px;">Contact Info:</h6>
-								<p>Phone: <b>408.341.0600</b></p>
-								<p>Email: <a href="mailto:hseldon@trantor.com">hseldon@trantor.com<script cf-hash="f9e31" type="text/javascript">
-									/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a></p>
+								<f:render partial="Area/Contact" />
 							</td>
 							<td class="expander"></td>
 						</tr>
