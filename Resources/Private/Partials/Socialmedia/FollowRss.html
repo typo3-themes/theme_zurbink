@@ -1,0 +1,13 @@
+{namespace theme=KayStrobach\Themes\ViewHelpers}
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+	<f:section name="Default">
+		<!-- theme_bootstrap: Partials/Socialmedia/FollowRss.html [begin] -->
+
+		<f:if condition="{theme:constant(constant:'themes.configuration.socialmedia.useRss')}">
+			<f:render partial="Tools/Button" arguments="{class:'googleplus', caption: 'Our latest news', uriVar:'themes.configuration.socialmedia.rssLink'}" />
+		</f:if>
+
+		<!-- theme_bootstrap: Partials/Socialmedia/FollowRss.html [end] -->
+	</f:section>
+</div>

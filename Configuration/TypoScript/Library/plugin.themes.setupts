@@ -17,7 +17,7 @@ plugin.tx_themes {
 	view {
 		widget {
 			KayStrobach\Themes\ViewHelpers\Widget\LanguageMenuViewHelper {
-				templateRootPath = EXT:theme_bootstrap/Resources/Private/Templates/
+				templateRootPath = EXT:theme_zurbink/Resources/Private/Templates/
 			}
 		}
 	}
@@ -26,7 +26,7 @@ config.tx_extbase {
 	view {
 		widget {
 			KayStrobach\Themes\ViewHelpers\Widget\LanguageMenuViewHelper {
-				templateRootPath = EXT:theme_bootstrap/Resources/Private/Templates/
+				templateRootPath = EXT:theme_zurbink/Resources/Private/Templates/
 			}
 		}
 	}
