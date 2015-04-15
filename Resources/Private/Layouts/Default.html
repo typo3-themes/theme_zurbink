@@ -36,7 +36,14 @@
 													<table class="twelve columns">
 														<tr>
 															<td class="six sub-columns">
-																<img src="http://placehold.it/200x50">
+																<f:if condition="{theme:constant(constant:'themes.configuration.header.logo.main.file')}">
+																	<f:then>
+																		<f:image height="50" src="{theme:constant(constant:'themes.configuration.header.logo.main.file')}" />
+																	</f:then>
+																	<f:else>
+																		<img src="http://placehold.it/200x50">
+																	</f:else>
+																</f:if>
 															</td>
 															<td class="six sub-columns last" style="text-align:right; vertical-align:middle;">
 																<span class="template-label">{theme:constant(constant:'themes.configuration.siteName')}</span>
