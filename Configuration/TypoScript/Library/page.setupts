@@ -2,5 +2,5 @@ page {
     config {
         disableAllHeaderCode = 1
     }
-    100.stdWrap.postUserFunc = KayStrobach\ThemeZurbink\Processing\Inliner->process
+   # 100.stdWrap.postUserFunc = KayStrobach\ThemeZurbink\Processing\Inliner->process
 }
