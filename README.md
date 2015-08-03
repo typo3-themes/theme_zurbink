@@ -1,5 +1,7 @@
-# theme_zurbink
+# BasePackage:theme_zurbink
 Quickly create responsive HTML emails that work on any device &amp; client. Even Outlook. http://zurb.com/ink/
+
+Please use this extension to build your Zurb Ink based themes upon.
 
 To achieve that this repository contains a base template for sending email newsletters based on zurb foundations ink templates.
 
