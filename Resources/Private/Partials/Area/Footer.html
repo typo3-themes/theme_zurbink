@@ -33,7 +33,17 @@
 				<tr>
 					<td align="center">
 						<center>
-							<p style="text-align:center;"><a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Unsubscribe</a></p>
+							<p style="text-align:center;">
+								<f:if condition="">
+									<a href="#">Terms</a>
+								</f:if>
+								<f:if condition="">
+									<a href="#">Privacy</a>
+								</f:if>
+								<f:if condition="">
+									<a href="#">Unsubscribe</a>
+								</f:if>
+							</p>
 						</center>
 					</td>
 					<td class="expander"></td>
