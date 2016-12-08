@@ -5,7 +5,7 @@
 		<!-- theme_bootstrap: Partials/Socialmedia/FollowRss.html [begin] -->
 
 		<f:if condition="{theme:constant(constant:'themes.configuration.socialmedia.useRss')}">
-			<f:render partial="Tools/Button" arguments="{class:'googleplus', caption: 'Our latest news', uriVar:'themes.configuration.socialmedia.rssLink'}" />
+			<f:render partial="Tools/Button" arguments="{class:'rss', caption: '<f:translate key=\'follow_rss\' />', uriVar:'themes.configuration.socialmedia.rssLink'}" />
 		</f:if>
 
 		<!-- theme_bootstrap: Partials/Socialmedia/FollowRss.html [end] -->

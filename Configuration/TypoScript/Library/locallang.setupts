@@ -1,0 +1,20 @@
+plugin.tx_themes {
+	_LOCAL_LANG {
+		default {
+			socialmedia_connect = Connect With Us:
+			contact_info = Contact Info:
+			imprint_label = Imprint
+			privacy_label = Privacy
+			unsubscribe_label = Unsubscribe
+			follow_twitter = See you on Twitter
+			follow_facebook = See you on Facebook
+			follow_rss = Our latest news
+			follow_googleplus = See you on Google+
+			follow_xing = See you on Xing
+			follow_youtube = See you on Youtube
+			content.variants.panel = Panel
+			phone_label = Phone
+			email_label = Email
+		}
+	}
+}

@@ -1,0 +1,20 @@
+plugin.tx_themes {
+	_LOCAL_LANG {
+		de {
+			socialmedia_connect = Folgen Sie uns:
+			contact_info = Adresse:
+			imprint_label = Impressum
+			privacy_label = Datenschutz
+			unsubscribe_label = Abmelden
+			follow_twitter = Folge uns auf Twitter
+			follow_facebook = Folge uns auf Facebook
+			follow_rss = Unsere aktuellsten Nachrichten
+			follow_googleplus = Folge uns auf Google+
+			follow_xing = Folge uns auf Xing
+			follow_youtube = Folge uns auf Youtube
+			content.variants.panel = Panel
+			phone_label = Tel.
+			email_label = E-Mail
+		}
+	}
+}

@@ -6,7 +6,7 @@
 			<table class="six columns">
 				<tr>
 					<td class="left-text-pad">
-						<h5>Connect With Us:</h5>
+						<h5><f:translate key="socialmedia_connect"/></h5>
 						<f:render partial="Socialmedia/List" section="Default" />
 					</td>
 					<td class="expander"></td>
@@ -17,6 +17,7 @@
 			<table class="six columns">
 				<tr>
 					<td class="last right-text-pad">
+						<h5><f:translate key="contact_info"/></h5>
 						<f:render partial="Area/Contact" />
 					</td>
 					<td class="expander"></td>
@@ -26,22 +27,34 @@
 	</tr>
 </table>
 
-<table class="row">
+<table class="row links">
 	<tr>
 		<td class="wrapper last">
 			<table class="twelve columns">
 				<tr>
 					<td align="center">
 						<center>
-							<p style="text-align:center;">
-								<f:if condition="">
-									<a href="#">Terms</a>
+							<p style="...">
+								<f:if condition="{theme:constant(constant:'themes.configuration.pages.imprint')}">
+									<f:then>
+										<f:link.page pageUid="{theme:constant(constant:'themes.configuration.pages.imprint')}">
+											<f:translate key="imprint_label"/> &#124;
+										</f:link.page>
+									</f:then>
 								</f:if>
-								<f:if condition="">
-									<a href="#">Privacy</a>
+								<f:if condition="{theme:constant(constant:'themes.configuration.pages.privacy')}">
+									<f:then>
+										<f:link.page pageUid="{theme:constant(constant:'themes.configuration.pages.privacy')}">
+											<f:translate key="privacy_label"/> &#124;
+										</f:link.page>
+									</f:then>
 								</f:if>
-								<f:if condition="">
-									<a href="#">Unsubscribe</a>
+								<f:if condition="{theme:constant(constant:'themes.configuration.pages.registration')}">
+									<f:then>
+										<f:link.page pageUid="{theme:constant(constant:'themes.configuration.pages.registration')}">
+											<f:translate key="unsubscribe_label"/>
+										</f:link.page>
+									</f:then>
 								</f:if>
 							</p>
 						</center>
